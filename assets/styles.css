@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Custom default button */
 .btn-default,
@@ -72,7 +73,7 @@ img#logo {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin: -64% auto 0 auto;
+  margin: -59% auto 0 auto;
   position: relative;
 }
 #id_2 {
@@ -127,6 +128,10 @@ video {
   #core_1 {
     margin-left:-18%;
   }
+  .promo2 {
+    right: 0 !important;
+    text-align: center !important;
+  }
 
 }
 @media (min-width: 767px) {
@@ -137,9 +142,30 @@ video {
 .btn-lg, .btn-group-lg > .btn {
   padding: 9.5px 16px;
 }
+.promo {
+  font-style: italic;
+  position: fixed;
+  text-align: center;
+  color: white;
+  top: 0px;
+  width: 100%;
+  background: gray;
+  opacity: .7;
+  padding: 7px 0;
+  z-index: 300;
+}
 
-
-
+.promo2 {
+  color: lightgray;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  font-size: 17px;
+  float: right;
+  text-align: right;
+  right: 100px;
+  font-style: italic;
+}
 
 
 
