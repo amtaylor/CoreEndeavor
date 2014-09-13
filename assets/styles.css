@@ -36,8 +36,10 @@ body {
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: rgb(133, 210, 245);
+  background-color: transparent;
   border-color: rgb(133, 210, 245);
+  border: 2px solid rgb(133, 210, 245);
+  padding: 8.5px 15px;
 }
 
 .cover-heading {
@@ -65,23 +67,19 @@ img#logo {
 }
 
 .vid-text {
-  position: absolute;
-  margin-top: -25%;
   color: white;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 77%;
-  margin: -46% auto 0 auto;
+  margin: -64% auto 0 auto;
+  position: relative;
 }
 #id_2 {
   margin-left: 401px;
   margin-top: -46.55px;
 }
-#core_1 {
-  margin-left:-10%;
-}
+
 
 .input-lg {
   border-radius:0px !important;
@@ -113,14 +111,28 @@ video {
     
   }
   .site-wrapper {
-    background: url("https://s3.amazonaws.com/mst-images-shared/core/back-shot.png") no-repeat;
+    background: url("https://s3.amazonaws.com/mst-images-shared/core/back-shot2.png") no-repeat;
     min-height: 640px;
     background-size: cover;
   }
   video {
     display: none;
   }
+  .vid-text {
+    margin:auto !important;
+  }
+  form {
+    margin-top:100px;
+  }
+  #core_1 {
+    margin-left:-18%;
+  }
 
+}
+@media (min-width: 767px) {
+  #core_1 {
+    margin-left:-9%;
+  }
 }
 .btn-lg, .btn-group-lg > .btn {
   padding: 9.5px 16px;

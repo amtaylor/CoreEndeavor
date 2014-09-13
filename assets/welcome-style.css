@@ -18,8 +18,6 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -141,6 +139,11 @@ body {
     margin: 0 5px;
   }
 }
+@media (max-width: 767px) {
+  .btn-default {
+    margin:5px 0;
+  }
+}
 .share-button {
   padding: 9px 16px 4px 9px;
   text-align: center;
@@ -151,4 +154,11 @@ body {
   background-color: rgb(68,193,251);
   border-color: rgb(68,193,251);
   background-image: none;
+}
+.btn-default:hover {
+  background-color: rgb(68,193,251);
+  border-color: rgb(68,193,251);
+  background-image: none;
+  color: white;
+  opacity: .6;
 }
