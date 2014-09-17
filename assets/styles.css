@@ -77,7 +77,7 @@ img#logo {
   position: relative;
 }
 #id_2 {
-  margin-left: 401px;
+  margin-left: 500px;
   margin-top: -46.55px;
 }
 
@@ -85,7 +85,7 @@ img#logo {
 .input-lg {
   border-radius:0px !important;
   border:0px;
-  line-height: .33;
+  line-height: 1.33;
   color: black;
 }
 video {
@@ -104,11 +104,13 @@ video {
     vertical-align: bottom;
   }
   #id_2 {
-    margin-left: 307px;
+    margin-left: 274px;
     margin-top: -45.8px;
   }
   .input-lg, .form-horizontal .form-group-lg .form-control {
-    padding: 10px 0px;
+    width: 46%;
+    margin-left: -60px;
+    text-align: center;
     
   }
   .site-wrapper {
